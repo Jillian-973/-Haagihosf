@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Réservation de Vols - Haagihosf</title>
+    <title>Réservation de Train - Haagihosf</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/train.css">
     <link rel="stylesheet" href="css/avion.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
@@ -17,7 +18,7 @@
         <a href="index.html">
             <img src="img/LOGO.svg" alt="Logo Haagihosf" style="height:100px;vertical-align:middle;">
         </a>
-        <h1>Réservez votre vol avec Haagihosf</h1>
+        <h1>Faite des économies avec Haagihosf et opter pour du carpooling</h1>
     </header>
     <nav>
         <a href="hotels.html">Hôtels</a>
@@ -28,18 +29,33 @@
     </nav>
     <div class="container">
         <section>
-            <h2>Votre voyage commence ici</h2>
+            <h2>Destinations en Europe</h2>
             <p>
-                Trouvez le vol idéal pour vos vacances ou déplacements professionnels parmi notre sélection mondiale.
+                Haagihosf vous propose des réservations de trains vers plusieurs destinations à travers l'Europe.
+                Choisissez votre destination et réservez votre billet facilement.
             </p>
-            <form>
-                <input type="text" placeholder="Destination">
-                <input type="date" placeholder="Date de départ">
-                <input type="date" placeholder="Date de retour">
-                <input type="number" min="1" max="10" placeholder="Passagers">
-                <button type="submit">Rechercher</button>
-            </form>
         </section>
+        <form action="#" method="post" class="reservation-form">
+            <label for="departure">Ville de départ:</label>
+            <input type="text" id="departure" name="departure" required>
+
+            <label for="destination">Destination:</label>
+            <select id="destination" name="destination" required>
+                <option value="haagihosf">Haagihosf</option>
+                <option value="paris">Paris</option>
+                <option value="londres">Londres</option>
+                <option value="berlin">Berlin</option>
+                <option value="madrid">Madrid</option>
+            </select>
+
+            <label for="date">Date de départ:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="passengers">Nombre de passagers:</label>
+            <input type="number" id="passengers" name="passengers" min="1" required>
+
+            <button type="submit">Réserver</button>
+        </form>
         <div class="destinations">
             <h3>Destinations populaires</h3>
             <div class="destination-card">

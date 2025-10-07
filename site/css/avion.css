@@ -1,27 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
 
-header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-nav {
-    background-color: #0056b3;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
 
 .container {
     max-width: 1200px;
@@ -90,4 +67,11 @@ form button:hover {
 
 .destination-card p {
     color: #666;
+}
+
+.destination-card:hover {
+    box-shadow: 0 8px 32px rgba(25, 118, 210, 0.15);
+    border-color: var(--secondary-blue);
+    transform: translateY(-4px) scale(1.03);
+    cursor: pointer;
 }
