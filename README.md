@@ -149,7 +149,7 @@ Ce guide vous explique étape par étape comment créer, utiliser et fusionner d
 
 ## 📚 Table des matières
 
-1. [Créer une branche](##1-créer-une-branche)
+1. [Créer une branche](#1----créer-une-branche)
 2. [Changer de branche](#2-changer-de-branche)
 3. [Travailler et push dans une branche](#3-travailler-et-push-dans-une-branche)
 4. [Fusionner (merge) une branche dans main](#4-fusionner-merge-une-branche-dans-main)
