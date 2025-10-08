@@ -150,11 +150,11 @@ Ce guide vous explique étape par étape comment créer, utiliser et fusionner d
 ## 📚 Table des matières
 
 1. [Créer une branche](#1--créer-une-branche)
-2. [Changer de branche](#2-changer-de-branche)
-3. [Travailler et push dans une branche](#3-travailler-et-push-dans-une-branche)
-4. [Fusionner (merge) une branche dans main](#4-fusionner-merge-une-branche-dans-main)
-5. [Supprimer une branche](#5-supprimer-une-branche)
-6. [Commandes utiles](#6-commandes-utiles)
+2. [Changer de branche](#2--changer-de-branche)
+3. [Travailler et push dans une branche](#3--travailler-et-push-dans-une-branche)
+4. [Fusionner (merge) une branche dans main](#4--fusionner-merge-une-branche-dans-main)
+5. [Supprimer une branche](#5--supprimer-une-branche)
+6. [Commandes utiles](#6--commandes-utiles)
 
 ---
 
