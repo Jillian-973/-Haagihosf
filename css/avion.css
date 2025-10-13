@@ -75,3 +75,13 @@ form button:hover {
     transform: translateY(-4px) scale(1.03);
     cursor: pointer;
 }
+
+footer {
+    background: var(--primary-green);
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+    margin-top: 40px;
+    box-shadow: 0 -2px 8px var(--card-shadow);
+    font-size: 1rem;
+}
